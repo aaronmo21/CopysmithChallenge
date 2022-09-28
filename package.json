@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "preinstall": "npm i nodemon -g",
     "start": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.2",
-    "got": "^12.5.0",
     "koa-body": "^5.0.0",
     "koa-bodyparser": "^4.3.0",
     "koa-json": "^2.0.2",
